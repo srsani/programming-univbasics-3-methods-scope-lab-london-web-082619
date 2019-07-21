@@ -4,6 +4,6 @@ def mario(phrase = "It's-a me, Mario!")
 end
 
 def toadstool
-  status = mario
+  status = mario()
   puts status
 end
